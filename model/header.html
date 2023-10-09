@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header minimized">
+        <div class="logo">
+            <img src="../assets/logo/logo.png" alt="" id="logo">
+        </div>
+        
+        <nav class="navbar">
+            <div class="navbar-menu">
+                <div class="navbar-item" value="home">
+                    <a href="../home.html" class="navbar-link" id="home-link"><div class="div-link">Home</div></a>
+                </div>
+                <div class="navbar-item product-dropdown" value="product">
+                    <div class="dropdown" onmouseenter="showDropdown()" onmouseleave="hideDropdown()">
+                        <a href="../product.html" class="navbar-link dropbtn" id="home-link">
+                            <div class="div-link">Product</div></a>
+                        <div class="dropdown-content">
+                            <a href="../product.html#cake">Cake</a>
+                            <a href="../product.html#cookie">Cookie</a>
+                            <a href="../product.html#tea">Tea</a>
+                            <a href="../product.html#coffee">Coffee</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-item" value="aboutus">
+                    <a href="../aboutus.html" class="navbar-link" id="about-link"><div class="div-link">About Us</div></a>
+                </div>
+                <div class="navbar-item" value="location">
+                    <a href="../location.html" class="navbar-link" id="location-link"><div class="div-link">Location</div></a>
+                </div>
+            </div>    
+        </nav>
+        
+        <div class="regis">
+            <nav class="navbar">
+                <div class="navbar-menu">
+                    <div class="navbar-item">
+                        <a href="../register.html" class="navbar-link"><div class="div-regist">Register</div></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</body>
+        <script src="../active.js"></script>
+</html>
