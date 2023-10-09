@@ -252,19 +252,19 @@ body .main-home{
 }
 
 .category-card.cake:hover .category-icon{
-    content: url(/assets/category/cake-white.png);
+    content: url(assets/category/cake-white.png);
 }
 
 .category-card.cookie:hover .category-icon{
-    content: url(/assets/category/cookie-white.png);
+    content: url(assets/category/cookie-white.png);
 }
 
 .category-card.tea:hover .category-icon{
-    content: url(/assets/category/tea-white.png);
+    content: url(assets/category/tea-white.png);
 }
 
 .category-card.coffee:hover .category-icon{
-    content: url(/assets/category/coffee-white.png);
+    content: url(assets/category/coffee-white.png);
 }
 
 /* LATEST-EVENTS */
