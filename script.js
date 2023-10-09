@@ -214,7 +214,7 @@ $(function() {
     
     if (!error) {
       alert("Registration Successful!\n\nWelcome, " + username);
-      window.location.href = "../index.html";
+      window.location.href = "index.html";
     }
     
     document.getElementById("registrationForm").reset();
