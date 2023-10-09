@@ -417,19 +417,19 @@ body .main-home{
 }
 
 .cat-link.cake:hover .cat-icon{
-    content: url(/assets/category/cake-default.png)
+    content: url(assets/category/cake-default.png)
 }
 
 .cat-link.cookie:hover .cat-icon{
-    content: url(/assets/category/cookie-default.png)
+    content: url(assets/category/cookie-default.png)
 }
 
 .cat-link.tea:hover .cat-icon{
-    content: url(/assets/category/tea-default.png)
+    content: url(assets/category/tea-default.png)
 }
 
 .cat-link.coffee:hover .cat-icon{
-    content: url(/assets/category/coffee-default.png)
+    content: url(assets/category/coffee-default.png)
 }
 
 .category-section{

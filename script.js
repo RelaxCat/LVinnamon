@@ -1,9 +1,9 @@
 $(function() {
   // HEADER FOOTER
-  $("#header").load("/model/header.html", function() {
+  $("#header").load("../model/header.html", function() {
   });
 
-  $("#footer").load("/model/footer.html", function() {
+  $("#footer").load("../model/footer.html", function() {
   });
 
   // SCROLLING
